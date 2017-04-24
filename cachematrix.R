@@ -18,7 +18,7 @@ makeCacheMatrix <- function(x = matrix()) {
        getinv = getinv)#The output of this function is really a list of functions.
 }
 
-#cacheSolve computes the inverse of the matrix created by the makeCacheMatrix function, butfirst checks if that inverse has already been calculated.
+#cacheSolve computes the inverse of the matrix created by the makeCacheMatrix function, but first checks if that inverse has already been calculated.
 #If so, then the inverse is retrieved from cache and the calculation is skipped. This helps to avoid unnecessary computation. 
 #If the inverse has not yet been calculated, then the function calculates it and sets this value using the "setinv" function.
 
